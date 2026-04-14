@@ -29,6 +29,13 @@ const tools = [
     description: 'Create and join pre-established collective commitments. When one member is targeted, the whole network responds — distributing the individual cost of resistance across the group.',
     tag: 'Counters: Economic Dependence & Isolation',
   },
+  {
+    href: '/democracy-rating',
+    title: 'Pro-Democracy Ratings',
+    icon: '⚖️',
+    description: 'Letter grades (A–F) for organizations based on how they\'ve responded to authoritarian pressure. Researched from public reporting. Starting with law firms — who fought, who capitulated, and what happened next.',
+    tag: 'Accountability: Who Buckled',
+  },
 ]
 
 export default function Home() {
@@ -46,11 +53,11 @@ export default function Home() {
           The formation pipeline runs forward — apolitical front doors become political power through recurring contact, shared identity, and collective action. But adversaries understand this logic too. Authoritarian pressure rarely attacks groups as groups. It atomizes individuals, normalizes concessions one at a time, captures leadership, and exploits economic dependence until the group no longer knows it has been compromised.
         </p>
         <p className="text-zinc-400 leading-relaxed">
-          These four tools address each attack surface. The common thread: effective hardening is almost always built <em className="text-zinc-200">before</em> the crisis, not during it.
+          These tools address each attack surface. The common thread: effective hardening is almost always built <em className="text-zinc-200">before</em> the crisis, not during it — and accountability requires naming who buckled and who held.
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 mb-16">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 mb-16">
         {tools.map((tool) => (
           <Link
             key={tool.href}

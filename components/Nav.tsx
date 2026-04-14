@@ -7,6 +7,7 @@ const tools = [
   { href: '/precommitment', label: 'Pre-Commitment Platform', short: 'Commitments' },
   { href: '/backbone-scorecard', label: 'Backbone Scorecard', short: 'Scorecard' },
   { href: '/mutual-defense', label: 'Mutual Defense Pact', short: 'Defense Pact' },
+  { href: '/democracy-rating', label: 'Pro-Democracy Ratings', short: 'Ratings' },
 ]
 
 export default function Nav() {
