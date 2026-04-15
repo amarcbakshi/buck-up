@@ -115,7 +115,7 @@ export default function DemocracyRatingDetailPage() {
         <h2 className="text-lg font-semibold text-white mb-5">Score Breakdown</h2>
         <div className="space-y-5">
           {DIMENSIONS.map((dim) => {
-            const score = (org as Record<string, number>)[dim.key] ?? 0
+            const score = (org as unknown as Record<string, number>)[dim.key] ?? 0
             return (
               <div key={dim.key}>
                 <div className="flex items-center justify-between mb-1.5">
